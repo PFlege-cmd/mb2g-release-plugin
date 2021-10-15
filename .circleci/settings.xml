@@ -5,16 +5,16 @@
 
     <servers>
         <server>
-            <id>packagecloud.release</id>
+            <id>packagecloud.RELEASE</id>
             <password>${env.PCLOUD}</password>
         </server>
         <server>
-            <id>packagecloud.snapshot</id>
+            <id>packagecloud.SNAPSHOTS</id>
             <password>${env.PCLOUD}</password>
         </server>
         <server>
             <id>github</id>
-            <username>springframeworkguru</username>
+            <username>PFlege-cmd</username>
             <password>${env.GIT_PWD}</password>
         </server>
     </servers>
