@@ -66,11 +66,11 @@
 
     <distributionManagement>
         <repository>
-            <id>packagecloud.release</id>
+            <id>packagecloud.RELEASE</id>
             <url>packagecloud+https://packagecloud.io/pflege/RELEASE</url>
         </repository>
         <snapshotRepository>
-            <id>packagecloud.snapshot</id>
+            <id>packagecloud.SNAPSHOTS</id>
             <url>packagecloud+https://packagecloud.io/pflege/SNAPSHOTS</url>
         </snapshotRepository>
     </distributionManagement>
